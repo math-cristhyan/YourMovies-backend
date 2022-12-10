@@ -1,0 +1,26 @@
+{
+  "name": "desafio---apimovie",
+  "version": "1.0.0",
+  "description": "Desafio do stage 8 backend explorer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js",
+    "migrate": "knex migrate:latest"
+  },
+  "keywords": [],
+  "author": "Math Cris",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "express": "^4.18.2",
+    "express-async-error": "^0.0.2",
+    "express-async-errors": "^3.1.1",
+    "knex": "^2.3.0",
+    "sqlite": "^4.1.2",
+    "sqlite3": "^5.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
